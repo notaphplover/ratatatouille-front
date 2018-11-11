@@ -1,0 +1,46 @@
+<div class="container-fluid no-padding-workaround ">
+    <div class="row">
+        <div class="col-12">
+            <div class="position-relative h-100-vh">
+                <div class="position-absolute absolute-center">
+                    <picture>
+                        <source srcset="assets/img/main-bg-h-1400.jpg" media="(min-height: 1000px)">
+                        <source srcset="assets/img/main-bg-h-1000.jpg" media="(min-height: 600px)">
+                        <img src="assets/img/main-bg-h-600.jpg">
+                    </picture>
+                </div>
+                <div class="position-relative">
+                    <div class="d-flex flex-column justify-content-between h-100-vh">
+                        <div>
+                            <app-menu>
+                            </app-menu>
+                        </div>
+                        <div class="home-main-container">
+                            <div class="text-center home-header-text-title">
+                                <p>{{ 'home.title' | translate }}</p>
+                            </div>
+                            <div class="text-center home-header-text-subtitle">
+                                <p>{{ 'home.subtitle' | translate }}</p>
+                            </div>
+                            <div class="text-center">
+                                <a routerLink="/home">
+                                    <button class="btn btn-outline-light m-2">
+                                        {{ 'global.register' | translate }}
+                                    </button>
+                                </a>
+                                <a routerLink="/login">
+                                    <button class="btn btn-outline-light m-2">
+                                        {{ 'global.login' | translate }}
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            footer
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

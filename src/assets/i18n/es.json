@@ -1,0 +1,21 @@
+{
+    "home": {
+        "title": "Menos es más",
+        "subtitle": "Descubra la mejor forma de gestionar su restaurante"
+    },
+    "global": {
+        "login": "Iniciar sesión",
+        "register": "Resgistro"
+    },
+    "menu": {
+        "about": "Equipo",
+        "contact": "Contacto",
+        "faq": "Preguntas frecuentes",
+        "features": "Características",
+        "support": "Soporte"
+    },
+    "user": {
+        "password": "Contraseña",
+        "username": "Usuario"
+    }
+}

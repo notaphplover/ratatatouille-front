@@ -1,0 +1,19 @@
+@import '../../styles/bootstrap.scss';
+
+.home-header-text-title {
+    font-size: $font-xl;
+    font-weight: bold;
+    color: #fff;
+}
+
+.home-header-text-subtitle {
+    font-size: $font-lg;
+    font-weight: bold;
+    color: #fff;
+}
+
+.home-main-container {
+    background-color: $black-transparent;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
