@@ -4,8 +4,11 @@
         "subtitle": "Descubra la mejor forma de gestionar su restaurante"
     },
     "global": {
+        "access-denied": "Aceso denegado",
         "login": "Iniciar sesión",
-        "register": "Resgistro"
+        "not-found": "Recurso no encontrado",
+        "register": "Resgistro",
+        "unexpected-error": "Ocurrió un error inesperado"
     },
     "menu": {
         "about": "Equipo",

@@ -1,4 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
+import { NotificationContainerComponent } from '../notification-container/notification-container.component';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +12,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  /**
+   * @var NotificationContainerComponent notifications container.
+   */
+  @ViewChild(NotificationContainerComponent)
+  protected notificationContainer: NotificationContainerComponent;
+
+  constructor() {}
 
   ngOnInit() {
   }

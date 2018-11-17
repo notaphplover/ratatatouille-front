@@ -4,8 +4,11 @@
         "subtitle": "The best way to manage a restaurant"
     },
     "global": {
+        "access-denied": "Access denied",
         "login": "Log in",
-        "register": "Register"
+        "not-found": "Resource not found",
+        "register": "Register",
+        "unexpected-error": "An unexpected error occurred"
     },
     "menu": {
         "about": "About",
